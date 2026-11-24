@@ -1,1 +1,19 @@
+
 remote textfile one
+this is line 2
+line 2 and 3 are written from VIM
+
+Basic usage instructions of VIM 101:
+1. VIM can be uesd to edit a file- EX: VIM one.txt
+
+2. after then to enter the editing mode you need to enter 'i' - this allos you to edit teh content inside the file one.txt
+
+3. Once you have made the changes- hit ESC button and then type ':wq' to save and exit the file
+
+4. ':w' saves he file, ':q' quits the file. We will be mostly using ':wq' to save and exit the file
+
+5. 'u' undo the changes
+
+Note: with unsaved changes VIM doesn't allow ':q' to quit and asks for an overdrive ':q!' which discards the changes and exits the file
+
+
